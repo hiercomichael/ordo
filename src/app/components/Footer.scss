@@ -1,0 +1,39 @@
+@font-face {
+  font-family: official;
+  src: url(../assets/official_font.TTF);
+  weight: 400
+}
+
+.footer {
+  background-color: black;
+  padding: 0 0 40px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+
+  &-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  &-link-container {
+    font-family: official;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    margin: auto;
+  }
+
+  &-link {
+    color: white;
+    text-decoration: none;
+  }
+
+  &-copyright {
+    padding: 10px 0;
+  }
+
+}

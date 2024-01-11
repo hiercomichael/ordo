@@ -1,0 +1,32 @@
+@font-face {
+  font-family: official;
+  src: url(../assets/official_font.TTF);
+  weight: 400
+}
+
+.shields {
+  height: 100vh;
+  font-family: official;
+  background-color: black;
+}
+
+.shields-title {
+  color: white;
+  font-size: 60px;
+  padding-left: 10%;
+}
+
+.shields-container {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  height: 85%;
+  align-items: start;
+  position: relative;
+  justify-content: space-between;
+
+  @media (max-width: 768px){
+    flex-direction: column;
+    width: 100%;
+  }
+}

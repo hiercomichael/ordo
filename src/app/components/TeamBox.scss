@@ -1,0 +1,15 @@
+.teambox {
+  background-color: red;
+  height: 100%;
+  width: 24%;
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+  transition: .3s;
+  border: 10px solid white;
+  
+  &:hover {
+    filter: none;
+    border: 5px solid black;
+  }
+}
